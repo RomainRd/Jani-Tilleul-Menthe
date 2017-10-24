@@ -80,6 +80,8 @@ test:
 #
 production:
   <<: *default
-  database: Jani-Tilleul-Menthe_production
-  username: Jani-Tilleul-Menthe
-  password: <%= ENV['JANI-TILLEUL-MENTHE_DATABASE_PASSWORD'] %>
+  # database: Jani-Tilleul-Menthe_production
+  # username: Jani-Tilleul-Menthe
+  # password: <%= ENV['JANI-TILLEUL-MENTHE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+

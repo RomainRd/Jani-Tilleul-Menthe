@@ -27,6 +27,8 @@ gem 'aws-sdk', '< 2.0'
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
   gem 'spring'

@@ -1,0 +1,13 @@
+.flexslider{
+  margin: 0 0 2.8vh -20px;
+}
+
+.flex-control-nav, .flex-control-paging, .flex-direction-nav{
+  display: none;
+}
+
+.flexslider .slides img {
+  min-height: 28vh;
+  max-height: 60vh;
+  max-width: 100%;
+}
